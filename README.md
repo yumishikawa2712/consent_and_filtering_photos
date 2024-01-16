@@ -43,3 +43,6 @@
 
 ### その後の機能
 オーナーを管理するアドミン
+
+## 画面遷移図
+figma：https://www.figma.com/file/2d7AaVTEGEEN5Hv6BDZh9y/%E7%84%A1%E9%A1%8C?type=whiteboard&node-id=0%3A1&t=MTNKVKCWHPNcar7S-1
