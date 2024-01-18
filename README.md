@@ -48,4 +48,4 @@
 figma：https://www.figma.com/file/2d7AaVTEGEEN5Hv6BDZh9y/%E7%84%A1%E9%A1%8C?type=whiteboard&node-id=0%3A1&t=MTNKVKCWHPNcar7S-1
 
 ## ER図
-https://i.gyazo.com/347c70171bd882c4e4a009b17eb09d47.png
+https://i.gyazo.com/000d05f16db558cca08e862dcdc426f3.png
