@@ -1,0 +1,18 @@
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+/Users/yumiko/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-mbvsuo sitelibdir\=./.gem.20240120-20770-mbvsuo clean
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-mbvsuo sitelibdir\=./.gem.20240120-20770-mbvsuo
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-mbvsuo sitelibdir\=./.gem.20240120-20770-mbvsuo install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20240120-20770-mbvsuo
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-mbvsuo sitelibdir\=./.gem.20240120-20770-mbvsuo clean
