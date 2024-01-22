@@ -1,0 +1,19 @@
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+/Users/yumiko/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-3b6vjv sitelibdir\=./.gem.20240120-20770-3b6vjv clean
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-3b6vjv sitelibdir\=./.gem.20240120-20770-3b6vjv
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-3b6vjv sitelibdir\=./.gem.20240120-20770-3b6vjv install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20240120-20770-3b6vjv/debug
+
+current directory: /Users/yumiko/workspace/runteq/easyselect/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240120-20770-3b6vjv sitelibdir\=./.gem.20240120-20770-3b6vjv clean
