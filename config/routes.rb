@@ -4,13 +4,19 @@ Rails.application.routes.draw do
     sessions:      'users/sessions',
     passwords:     'users/passwords'
   }
-  devise_for :publics, controllers: {
-    registrations: 'publics/registrations',
-    sessions:      'publics/sessions',
-    passwords:     'publics/passwords'
+  devise_for :customers, controllers: {
+    registrations: 'customers/registrations',
+    sessions:      'customers/sessions',
+    passwords:     'customers/passwords'
   }
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
+  namespace :users do
+    resources :targets
+  end
+
+  namespace :customers do
+    resources :targets
+  end
+
   root "static_pages#top"
 end
