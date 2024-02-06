@@ -11,7 +11,7 @@ class Customers::TargetsController < ApplicationController
   end
 
   def create
-    @target = current_customer.targers.build(target_params)
+    @target = current_customer.targets.build(target_params)
     if @target.photo_consent == false
       3.times do
         @target.photos.build
@@ -47,6 +47,6 @@ class Customers::TargetsController < ApplicationController
 
 
   def target_params
-    params.require(:target).permit(:name)
+    params.require(:target).permit(:name, :consent, face_photos_attributes: [:id, { images: [] }, :_destroy])
   end
 end
