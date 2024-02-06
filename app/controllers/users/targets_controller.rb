@@ -43,7 +43,7 @@ class Users::TargetsController < ApplicationController
   end
 
   def target_params
-    params.require(:target).permit(:name, :photo_consent)
+    params.require(:target).permit(:name, :photo_consent, face_photos_attributes: [:id, { images: [] }, :_destroy])
   end
 
 end
